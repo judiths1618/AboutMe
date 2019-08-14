@@ -1,0 +1,86 @@
+---
+layout: default
+title: Yuandou Wang | Publications
+picture: judith
+---
+<div class="page-header">
+  <h3>Publications</h3>
+    <blockquote><!--i>Better a witty fool than a foolish wit.<br/>&mdash;W. William Shakespeare</i></blockquote-->
+        <i>For more detail, please access the <a href = "https://dblp.uni-trier.de/pers/hd/w/Wang:Yuandou"><strong class="color-blue">DBLP:Yuandou Wang</strong></a></i>
+    </blockquote>
+
+    <br class="media">
+    <!--IEEE ACCESS-->
+        <a class="pull-left thumbnail"  href="https://ieeexplore.ieee.org/document/8676306"><img src="img/paper/ieee_access2019.jpg" alt=""/></a>
+        <div class="media-body">
+        <strong>Multi-objective Workflow Scheduling with Deep Q-Network-based Multi-agent Reinforcement Learning</strong>
+        <br/>
+        <span class="color-blue">Yuandou Wang</span>, Hang Liu, Wanbo Zheng, Yunni Xia, Yawen Li, Peng Chen, Kunyin Guo, Hong Xie.
+        In <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6287639"><span class="glyphicon glyphicon-globe"></span></a>
+        <i>IEEE ACCESS, Vol 7, pp 39974-39982, 2019. <strong>IF: 4.098</strong></i>
+        <br/>
+        <a href="https://ieeexplore.ieee.org/document/8676306" class="label label-success">PDF</a>
+        <a data-toggle="modal" href="#abstractIeeeAccess2019" class="label label-default">Abstract</a>
+        <!-- Modal -->
+        <div class="modal fade" id="abstractIeeeAccess2019" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">Multi-objective Workflow Scheduling with Deep Q-Network-based Multi-agent Reinforcement Learning</h4>
+                    </div>
+                    <div class="modal-body">
+                        Cloud Computing provides an effective platform for executing large-scale and complex workflow applications with a pay-as-you-go model. Nevertheless, various challenges, especially its optimal scheduling for multiple conflicting objectives, are yet to be addressed properly. The existing multi-objective workflow scheduling approaches are still limited in many ways, e.g., encoding is restricted by prior experts' knowledge when handling a dynamic real-time problem, which strongly influences the performance of scheduling. In this paper, we apply a deep-Q-network model in a multi-agent reinforcement learning setting to guide the scheduling of multi-workflows over infrastructure-as-a-service clouds. To optimize multi-workflow completion time and user's cost, we consider a Markov game model, which takes the number of workflow applications and heterogeneous virtual machines as state input and the maximum completion time and cost as rewards. The game model is capable of seeking for correlated equilibrium between make-span and cost criteria without prior experts' knowledge and converges to the correlated equilibrium policy in a dynamic real-time environment. To validate our proposed approach, we conduct extensive case studies based on multiple well-known scientific workflow templates and Amazon EC2 cloud. The experimental results clearly suggest that our proposed approach outperforms traditional ones, e.g., non-dominated sorting genetic algorithm-II, multi-objective particle swarm optimization, and game-theoretic-based greedy algorithms, in terms of optimality of scheduling plans generated.
+
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <a href="https://github.com/Judiths/ma-rl-in-workflowscheduling-ver2.0" class="label label-info">Codes</a>
+    </div>
+
+        <a class="pull-left thumbnail"  href="papers/978-3-319-94376-3_9.pdf" ><img src="img/paper/SCC2018.jpg" alt=""/></a>
+        <div class="media-body">
+        <strong>A Multi-stage Dynamic Game-Theoretic Approach for Multi-Workflow Scheduling on Heterogeneous Virtual Machines from Multiple Infrastructure-as-a-Service Clouds</strong>
+        <br/>
+        <span class="color-blue">Yuandou Wang</span>, Jiajia Jiang, Yunni Xia, Quanwang Wu, Xin Luo, Qingsheng Zhu.
+        In <a href="https://link.springer.com/chapter/10.1007/978-3-319-94376-3_9"><span class="glyphicon glyphicon-globe"></span></a>
+        <i>International Conference on Services Computing (<strong>SCC 2018</strong>) pp 137-152, <strong>CCF-C</strong></i>, 2018.
+        <br/>
+        <a href="papers/978-3-319-94376-3_9.pdf" class="label label-success">PDF</a>
+        <a data-toggle="modal" href="#abstractSCC2018" class="label label-default">Abstract</a>
+
+        <!-- Modal -->
+        <div class="modal fade" id="abstractSCC2018" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title">A Multi-stage Dynamic Game-Theoretic Approach for Multi-Workflow Scheduling on Heterogeneous Virtual Machines from Multiple Infrastructure-as-a-Service Clouds</h4>
+                    </div>
+                    <div class="modal-body">
+                    Distributed computing systems such as clouds continue to evolve to support various types of scientific  applications, especially scientific workflows,
+                    with dependable, consistent, pervasive, and inexpensive  access to geographically-distributed computational capabilities. Scheduling multiple
+                    workflows on  distributed computing systems like Infrastructure-as-a-Service (IaaS) clouds is well recognized as a  fundamental NP-complete problem
+                    that is critical to meeting various types of Quality-of-Service (QoS)  requirements. In this paper, we propose a multi-objective optimization workflow
+                    scheduling approach  based on dynamic game-theoretic model aiming at reducing workflow make-spans, reducing total cost,  and maximizing system fairness
+                    in terms of workload distribution among heterogeneous cloud virtual  machines (VMs). We conduct extensive case studies as well based on various well-known
+                    scientific workflow  templates and real-world third-party commercial IaaS clouds. Experimental results clearly suggest that our  proposed approach
+                    outperform traditional ones by achieving lower workflow make-spans, lower cost, and better  system fairness.
+                    </div>
+                </div><!-- /.modal-content -->
+            </div><!-- /.modal-dialog -->
+        </div><!-- /.modal -->
+        <a href="papers/SCC2018.pptx" class="label label-info">Slides</a>
+    </div>
+    </br>
+
+
+</div>
+<!--
+{% for post in site.papers %}
+  {% include paper.html paper=post %}
+{% endfor %}
+-->
+
+
